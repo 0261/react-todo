@@ -9,9 +9,9 @@ class App extends Component {
         super(props);
         this.state = {
             todoList:[
-                {id:1,date:"2018-08-13 09:00", todo:"회사 출근", isSuccess:false, },
-                {id:2,date:"2018-08-13 10:00", todo:"오전 회의", isSuccess:false, },
-                {id:3,date:"2018-08-13 12:00", todo:"점심 식사", isSuccess:false, },
+                {id:1,date:"2018-08-13 09:00", todo:"Company", isSuccess:false, },
+                {id:2,date:"2018-08-13 10:00", todo:"Meeting", isSuccess:false, },
+                {id:3,date:"2018-08-13 12:00", todo:"Lunch", isSuccess:false, },
             ]
         }
     }
